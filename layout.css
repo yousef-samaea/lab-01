@@ -1,0 +1,12 @@
+div, aside{
+    position: relative;
+    background-color: darkgray;
+    margin: 0px auto;
+    border: 1px gray solid;
+    border-collapse: collapse;
+}
+
+aside{
+    width: 480px;
+    height: 150px;
+}

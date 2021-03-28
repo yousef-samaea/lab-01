@@ -1,0 +1,94 @@
+
+
+p{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#a{
+    width: 480px;
+    height: 75px;
+}
+
+
+.c{
+    width: 480px;
+    height: 125px;
+}
+.d{
+    width: 480px;
+    height: 125px;
+}
+
+.e, .f , .g, .h{
+    width: 240px;
+    height: 250px;
+    /* display: inline-block; */
+    float: left;
+}
+
+.g{
+    clear: left;
+}
+
+
+#i{
+    width: 480px;
+    height: 80px;
+}
+.e-f, .g-h{
+    overflow: auto;
+    width: fit-content;
+    margin: 0px auto 0px auto;
+}
+
+@media all and (min-width:768px){
+    #a{
+        width: 960px !important;
+        height: 100px !important;
+    }
+    aside{
+        width: 200px !important;
+        height: 600px !important;
+        float: left;
+        background-color: darkseagreen;
+    }
+    
+    .c{
+        width: 380px !important;
+        height: 200px !important;
+    }
+    .d{
+        width: 380px !important;
+        height: 200px !important;
+    }
+    
+    .e, .f , .g, .h{
+        width: 190px !important;
+        height: 250px !important;
+        /* display: inline-block; */
+        float: left;
+    }
+    
+    .g{
+        clear: none;
+    }
+    
+    
+    #i{
+        width: 760px !important;
+        height: 150px !important;
+    }
+    .e-f, .g-h{
+        overflow: auto;
+        width: fit-content;
+        margin: 0px 0px 0px 0px;
+        float: left;
+    }
+    #a,.c,.d,.e,.f,.g,.h,#i{
+        float: left;
+        margin: 0px;
+        background-color: darkseagreen;
+    }
+}
